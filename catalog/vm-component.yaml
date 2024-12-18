@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: masayag1 VM
+  description: A virtual machine
+  annotations:
+    backstage.io/kubernetes-namespace: masayag
+    backstage.io/kubernetes-id: masayag1
+    janus-idp.io/tekton: onboarding
+    github.com/project-slug: test-workflows/onboarding
+  links:
+    - url: https://console-openshift-console.apps.bleeding.cnv.engineering.redhat.com/k8s/ns/masayag/kubevirt.io~v1~VirtualMachine/masayag1/console
+      title: VM Console
+      icon: dashboard
+      type: vm-console
+spec:
+  type: VM
+  system: system:default/janus-orchestrator
+  lifecycle: development
+  owner: user:default/masayag
