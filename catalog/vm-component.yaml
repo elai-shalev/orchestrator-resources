@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: masayag1 VM
+  name: masayag1
   description: A virtual machine
   annotations:
     backstage.io/kubernetes-namespace: masayag
