@@ -7,8 +7,6 @@ metadata:
     backstage.io/kubernetes-namespace: masayag
     backstage.io/kubernetes-id: masayag1
     backstage.io/kubernetes-cluster: virt
-    janus-idp.io/tekton: onboarding
-    github.com/project-slug: test-workflows/onboarding
   links:
     - url: https://console-openshift-console.apps.bleeding.cnv.engineering.redhat.com/k8s/ns/masayag/kubevirt.io~v1~VirtualMachine/masayag1/console/standalone
       title: VM Console
