@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-namespace: masayag
     backstage.io/kubernetes-id: masayag1
+    backstage.io/kubernetes-cluster: virt
     janus-idp.io/tekton: onboarding
     github.com/project-slug: test-workflows/onboarding
   links:
