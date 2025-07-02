@@ -15,3 +15,13 @@ spec:
   profile:
     displayName: Elai Shalev
   memberOf: [development]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mareklibra
+spec:
+  profile:
+    displayName: Marek Libra
+    email: marek.libra@gmail.com
+  memberOf: []
