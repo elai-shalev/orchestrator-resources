@@ -10,11 +10,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: ElaiShalevRH
+  name: elai-shalev
 spec:
   profile:
     displayName: Elai Shalev
-  memberOf: [development]
+  memberOf: [janus-orchestrator]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
