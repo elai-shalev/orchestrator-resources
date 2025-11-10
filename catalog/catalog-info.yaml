@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Location
 metadata:
-  name: elai-shalev
+  name: users
 spec:
-  profile:
-    displayName: Elai Shalev
-  memberOf: []
+  targets:
+    - ./users/elai-shalev.yaml
