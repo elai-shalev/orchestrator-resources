@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   profile:
-    displayName: Elai Shalev
-    email: elai.shalev@gmail.com
+    displayName: elai-shalev
+    email: eshalev@redhat.com
   memberOf: []
 
 
