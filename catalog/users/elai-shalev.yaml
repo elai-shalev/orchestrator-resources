@@ -2,17 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: elai-shalev
+  namespace: default
 spec:
   profile:
     displayName: Elai Shalev
     email: elai.shalev@gmail.com
-  memberOf: [users, default, development]
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: development
-  description: Orchestrator developers
-spec:
-  type: team
-  children: []
+  memberOf: [users]
