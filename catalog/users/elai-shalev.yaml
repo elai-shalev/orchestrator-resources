@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: elai-shalev
-  namespace: default
 spec:
   profile:
     displayName: Elai Shalev
